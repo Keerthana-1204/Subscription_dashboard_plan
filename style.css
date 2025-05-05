@@ -1,0 +1,254 @@
+body {
+  background: linear-gradient(
+    to bottom,
+    black 0%,
+    black 20%,
+    white 20%,
+    white 83%,
+    black 83%,
+    black 100%
+  );
+  font-family: Arial, sans-serif;
+  color: rgb(176, 57, 57);
+  margin: 0;
+  padding: 20px;
+}
+header {
+  text-align: center;
+  padding: 30px;
+  color: white;
+  line-height: 100%;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 0;
+}
+.subscription-plan {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  flex-direction: row;
+  margin: 20px auto;
+  max-width: 900px;
+  height: 350px;
+  gap: 50px;
+  color: white;
+  margin-bottom: 30px;
+}
+.basic-plan {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-color: rgb(122, 136, 34);
+}
+.pro-plan {
+  display: flex;
+  height: 400px;
+  width: 350px;
+  align-items: center;
+  text-align: center;
+  padding: 35px;
+  border-radius: 10px;
+  background-color: rgb(122, 136, 34);
+}
+.premium-plan {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(122, 136, 34);
+}
+p {
+  font-size: 1.2em;
+  white-space: nowrap;
+}
+.price {
+  font-size: 1.8em;
+  color: rgb(171, 15, 31);
+}
+.scheme {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 15px;
+}
+.Comparison {
+  display: block;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 100px;
+}
+table {
+  border-collapse: collapse;
+  width: 75%;
+  margin: 20px auto;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+th {
+  padding: 10px;
+  border: 2px solid #ddd;
+}
+.Contact-me {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 40px;
+  background-color: rgb(122, 136, 34);
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+form {
+  font-size: 1em;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Add this to stack elements vertically */
+  margin-bottom: 8px;
+}
+label {
+  flex: 2;
+  display: flex;
+  margin: 20px 0 5px;
+  text-align: justify;
+  font-weight: bold;
+  width: 30%;
+  justify-content: flex-start; /* Better label alignment */
+}
+input,
+select {
+  flex: 2;
+  width: 70%;
+  padding: 5px;
+  text-align: left;
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  padding: 10px 15px;
+  background-color: #e01e2b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+button:hover {
+  background-color: #63c020;
+}
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  gap: 20px;
+}
+.main-footer {
+  justify-content: left;
+  align-items: left;
+  margin: 0;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: 2fr 1.5fr 1fr;
+  align-items: center;
+  color: #b03b3b;
+  padding: 30px;
+  gap: 30px;
+}
+img {
+  padding-right: 8px;
+  padding-top: 8px;
+  width: 250px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  height: 250px;
+  margin-left: 15px auto;
+  object-fit: cover;
+}
+a {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  justify-content: left;
+  align-items: left;
+  padding: 10px;
+  transition: color 0.3s ease;
+  color: rgb(97, 232, 244);
+  text-decoration: none;
+  font-weight: bold;
+  width: 100%;
+}
+a:hover {
+  color: rgb(64, 215, 64);
+  text-decoration: underline;
+}
+.center-footer {
+  font-size: 1.2em;
+  white-space: nowrap;
+  padding: 150px;
+  padding-bottom: 50px;
+  font-style: italic;
+}
+.left-footer {
+  text-decoration: none;
+}
+.left-footer:hover {
+  opacity: 0.7;
+}
+@media (max-width: 768px) {
+  .subscription-plan {
+    flex-direction: column;
+  }
+}
+@media (max-width: 768px) {
+  .main-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .main-footer > div {
+    margin-bottom: 20px;
+  }
+
+  .center-footer {
+    padding: 0;
+  }
+
+  img {
+    width: 150px;
+    height: 150px;
+  }
+
+  form input,
+  form select {
+    width: 100%;
+  }
+
+  .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media (max-width: 768px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width initial-scale=1.0" />
+    <title>Subscription Dashboard Plan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Choose the Right Plan for You</h1>
+      <h3>Flexible plans tailored for individuals and businesses</h3>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="subscription-plan">
+          <div class="basic-plan">
+            <p>
+              <span class="scheme" style="font-size: 1.5em"
+                ><strong>BASIC PLAN</strong></span
+              ><br /><br />
+              <span class="price"><strong>₹0/month</strong></span
+              ><br /><br />
+              1 User<br />1 GB Storage<br />Email Support<br />
+            </p>
+          </div>
+          <div class="pro-plan">
+            <p>
+              <span class="scheme" style="font-size: 1.5em"
+                ><strong>PRO PLAN</strong></span
+              ><br /><br />
+              <span class="price"><strong>₹499/month</strong></span
+              ><br /><br />
+              5 Users<br />10 GB Storage<br />Priority Email Support<br />Popular
+              badge<br />
+            </p>
+          </div>
+          <div class="premium-plan">
+            <p>
+              <span class="scheme" style="font-size: 1.5em"
+                ><strong>PREMIUM PLAN</strong></span
+              ><br /><br />
+              <span class="price"><strong>₹999/month</strong></span
+              ><br /><br />
+              Unlimited Users<br />100 GB Storage<br />24/7 Support<br />Advanced
+              Analytics<br />
+            </p>
+          </div>
+        </div>
+
+        <div class="Comparison">
+          <h2>Comparison Pricing Cards</h2>
+          <table>
+            <thead>
+              <tr>
+                <th>Feature</th>
+                <th>Basic Plan</th>
+                <th>Pro Plan</th>
+                <th>Premium Plan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Price</td>
+                <td>₹0</td>
+                <td>₹499</td>
+                <td>₹999</td>
+              </tr>
+              <tr>
+                <td>Storage</td>
+                <td>1 GB Storage</td>
+                <td>10 GB Storage</td>
+                <td>100 GB Storage</td>
+              </tr>
+              <tr>
+                <td>Support</td>
+                <td>Email</td>
+                <td>Priority</td>
+                <td>24/7 Support</td>
+              </tr>
+              <tr>
+                <td>Users Allowed</td>
+                <td>1</td>
+                <td>5</td>
+                <td>Unlimited</td>
+              </tr>
+              <tr>
+                <td>Analytics</td>
+                <td>&#10060;</td>
+                <td>&#10060;</td>
+                <td>&#10004;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="Contact-me">
+        <h2>Contact Me</h2>
+        <form action="\Contact-me" method="post">
+          <div class="form-group">
+            <label for="username">USER NAME</label>
+            <input
+              type="name"
+              id="username"
+              name="username"
+              placeholder="Enter your name"
+              required
+            /><br /><br />
+          </div>
+
+          <div class="form-group">
+            <label for="email">EMAIL ID</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Enter your email ID"
+              required
+            /><br /><br />
+          </div>
+
+          <div class="form-group">
+            <label for="password">PASSWORD</label>
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Enter your password"
+              required
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{12,}"
+            /><br /><br />
+          </div>
+
+          <div class="form-group">
+            <label for="phonenumber">PHONE NUMBER</label>
+            <input
+              type="number"
+              id="phonenumber"
+              name="phonenumber"
+              placeholder="Enter your number"
+              required
+              maxlength="10"
+            /><br /><br />
+          </div>
+
+          <div class="form-group">
+            <label for="plan">PLAN</label>
+            <select id="plan" name="plan" required>
+              <option value="">
+                -----------------------select-----------------------
+              </option>
+              <option value="Basic">BASIC</option>
+              <option value="Pro">PRO</option>
+              <option value="Premium">PREMIUM</option></select
+            ><br /><br />
+          </div>
+
+          <div class="form-group">
+            <button type="submit">SUBMIT</button>
+            <button type="Reset">RESET</button><br /><br />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div class="main-footer">
+        <div class="left-footer">
+          <h2>Keerthana Ramesh</h2>
+          <p>Developer and Data Analyst</p>
+          <p>7358732320</p>
+          <p>
+            <a href="mailto:keerthana3045@gmail.com" target="_blank"
+              >keerthana3045@gmail.com</a
+            >
+          </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/keerthana-ramesh-5b5647265"
+              target="_blank"
+              ><span class="linkedin"></span>LINKEDIN</a
+            >
+          </p>
+          <p>
+            <a href="https://github.com/Keerthana-1204" target="_blank"
+              >GITHUB</a
+            >
+          </p>
+        </div>
+
+        <div class="center-footer">
+          <h1>RiseOn Global Services</h1>
+        </div>
+
+        <div class="right-footer">
+          <img src="Keerthu_pic.jpg" alt="Hello! I am here..." width="150" />
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
