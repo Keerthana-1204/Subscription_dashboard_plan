@@ -1,4 +1,4 @@
-# Subscription_dashboard_plan
+# Subscription dashboard plan
 
 This is a simple and intuitive subscription dashboard designed to help users easily view and compare different subscription plans. The dashboard provides a clear and visual way to compare various pricing tiers, features, and benefits. It is designed to assist users in making informed decisions when selecting a subscription plan.
 
